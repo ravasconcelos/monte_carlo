@@ -45,7 +45,19 @@ pi(a|St) contais the probalities an action can be chosen for a given state.Chang
 Changing Epsilon you can change the probability the agent will try other actions insteady the best one.
 
 # Results
-After 5000 episodes with Gamma 0.6 and Epsilon 0.3
+After 5000 episodes with Gamma 0.6 and Epsilon 0.3.
+
+Q variation per episode:
+![Q variation per episode](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/Q_change_graph.png)
+
+Final Q:
+![Final Q](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/final_Q.png)
+
+Final Policy:
+![Final Policy](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/final_policy.png)
+
+Just as rerence, this is the optimal policy:
+![Optimal Policy](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/optimal_policy.png)
 
 
 # References:
