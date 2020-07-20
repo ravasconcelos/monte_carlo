@@ -12,6 +12,8 @@ Instructor: Larry Simon
 ## About the Project
 Implementation of the algorithm given on Chapter 5.4, page 101 of Sutton & Barton's book "Reinforcement Learning: An Intruduction", which is the On-policy first-visit Mont Carlo control (for epsilon-soft policies).
 
+![On-policy first-visit MC control](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/onpolicy_firstvisit_MC_esoft.png)
+
 This algorithm to find an approximation of the optimal policy for the gridworld on page 76 and 77 of the book above.
 
 This notebook prints as output a table of the estimated q function Q(s,a) for the optimal policy and the optimal policy itself.
@@ -19,7 +21,8 @@ This notebook prints as output a table of the estimated q function Q(s,a) for th
 **Note**: this code was based on the Lazy Programmer's code.
 
 # Jupyter Notebook
-The notebook can be found at https://colab.research.google.com/drive/1yJwMgv3XSZ6mLcZ1W7JAxLRZVBjHOXea?usp=sharing
+The notebook can be found in the repor at monte_carlo_on_policy_first_visit_no_es_epsilon_soft_policies.ipynb
+or in Google Colab at https://colab.research.google.com/drive/1yJwMgv3XSZ6mLcZ1W7JAxLRZVBjHOXea?usp=sharing
 
 # Algorithm
 This Monte Carlo algorithm produces n episodes starting from random points of the grid, and let the agent move to the four directions according to the epsilon-soft policy until a termination state is achieved. 
@@ -40,6 +43,10 @@ pi(a|St) contais the probalities an action can be chosen for a given state.Chang
 
 # Configuration
 Changing Epsilon you can change the probability the agent will try other actions insteady the best one.
+
+# Results
+After 5000 episodes with Gamma 0.6 and Epsilon 0.3
+
 
 # References:
 
