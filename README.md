@@ -1,0 +1,2 @@
+# monte_carlo
+Implementation of the algorithm given on Chapter 5.4, page 101 of Sutton &amp; Barton's book "Reinforcement Learning: An Intruduction", which is the On-policy first-visit Mont Carlo control (for epsilon-soft policies).  This algorithm to find an approximation of the optimal policy for the gridworld on page 76 and 77 of the book above.  This notebook prints as output a table of the estimated q function Q(s,a) for the optimal policy and the optimal policy itself.
