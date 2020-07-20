@@ -16,6 +16,8 @@ Implementation of the algorithm given on Chapter 5.4, page 101 of Sutton & Barto
 
 This algorithm to find an approximation of the optimal policy for the gridworld on page 76 and 77 of the book above.
 
+![Optimal Policy](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/optimal_policy.png)
+
 This notebook prints as output a table of the estimated q function Q(s,a) for the optimal policy and the optimal policy itself.
 
 **Note**: this code was based on the Lazy Programmer's code.
@@ -58,10 +60,6 @@ Final Q:
 Final Policy:
 
 ![Final Policy](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/final_policy.png)
-
-Just as rerence, this is the optimal policy:
-
-![Optimal Policy](https://raw.githubusercontent.com/ravasconcelos/monte_carlo/master/images/optimal_policy.png)
 
 
 # References:
